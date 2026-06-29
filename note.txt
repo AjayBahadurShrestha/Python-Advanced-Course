@@ -1,0 +1,52 @@
+Python Advanced Course
+
+1. File Handeling- binary file, zip file
+  types of files
+  a. Text file
+  --> first file needed to be open
+  How to open a file?
+  --> 
+  f = open(filename, mode)
+  f = open("abc.txt")
+
+  mode of files
+
+  i. r for read
+    if the file doesn't exist file will give error
+    by default mode is r 
+
+  ii. w for write
+    if the file doesn't exist file it will make and write the file. It overwrite it file as well
+
+  iii. a for append
+    if the file doesn't exists then a new file will be created and new data will be append 
+
+  iv. r+ & w+ for them they will write and read but for r+ i    will give error if file is not created w+ will write and read but it will create the file if its not created
+
+  v. a+ read and append
+
+  vi. x for exclusive mode:
+  note: if the file exists already then this mode will give error
+
+
+# Some attribute related to file 
+1. name
+2. mode
+3. closed
+4. readable()
+5. writable()
+
+
+How to write data in file
+1. write()
+2. writelines()
+
+  b. Binary file
+  mode of file
+  i. rb
+  ii. wb
+  iii. ab
+  iv. r+b
+  v. w+b
+  vi. a+b
+  vii. xb
