@@ -37,9 +37,16 @@ Python Advanced Course
 5. writable()
 
 
-How to write data in file
+# How to write data in file
 1. write()
 2. writelines()
+
+# Reading data from the file
+1. read() --> read all data(str)
+2. read(numbers) --> read data of specified numbers
+3. readline() --> read line of data at a time
+4. readlines() --> read all data in the from of list
+
 
   b. Binary file
   mode of file
