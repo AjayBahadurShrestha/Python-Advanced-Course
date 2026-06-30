@@ -24,3 +24,28 @@ def readstudentdetails():
   data=f.readlines()
   for line in data:
     print(line, end='')
+    f.close()
+
+
+def search_by_id():
+  f=open('studentsdetails.txt')
+  data=f.readlines()
+
+  ids=int(input("Enter students id for search: "))
+  for line in data:
+    id,name,age,email,contact,fees=line.split('|')
+  
+    if int(id)==ids:
+        print(f'Student name: {name}')
+        print(f'Student ID: {id}')
+        print(f'Student Age: {age}')
+        print(f'Student Contact: {contact}')
+        print(f'Student Email: {email}')
+        print(f'Student Fees: {fees}')
+
+        break
+  else:
+       print("Student Record not Found")
+
+  f.close()
+search_by_id()

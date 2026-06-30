@@ -1,3 +1,4 @@
 1 | Rijan | 18 | rijan@aklsdjf | 9876543210 |15000.0
 2 | Ajay Bahadur Shrestha | 20 | balck@gmail.com | 9849017451 |1500000.0
 3 | Sanjay Shrestha | 20 | sanjay@gmail.com | 9987654321 |80000.0
+4 | Subodh | 90 | subidh@gmail.com | 987654567 |2.5

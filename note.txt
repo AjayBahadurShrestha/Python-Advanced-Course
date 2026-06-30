@@ -47,6 +47,7 @@ Python Advanced Course
 3. readline() --> read line of data at a time
 4. readlines() --> read all data in the from of list
 
+# with keyword with file
 
   b. Binary file
   mode of file
