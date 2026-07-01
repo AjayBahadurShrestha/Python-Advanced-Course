@@ -63,3 +63,10 @@ Python Advanced Course
   (comma seperated values)
   writer(writes object)
   writerow(in the form of list)
+  import csv/import csv as a
+
+  # zip files
+  upper camel case-->class eg:BishalPatel
+  lower camel case-->method eg:bishalPatel
+  lower case --> module/method eg:bishalPatel
+  there is a module for zip file

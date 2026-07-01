@@ -12,4 +12,5 @@ for x in range(n):
     email=input(f'Enter employee {x+1} email: ')
     contact=int(input(f'Enter employee {x+1} contact: '))
     r.writerow([name,address,email,contact])
+    print()
 f.close()
