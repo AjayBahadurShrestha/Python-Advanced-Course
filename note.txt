@@ -70,3 +70,19 @@ Python Advanced Course
   lower camel case-->method eg:bishalPatel
   lower case --> module/method eg:bishalPatel
   there is a module for zip file
+
+
+
+## Modules
+#Random
+* random()
+Function	Purpose
+randint()	Random integer
+random()	Decimal between 0 and 1
+uniform()	Decimal within range
+choice()	One random item
+choices()	Multiple items (duplicates allowed)
+sample()	Multiple unique items
+shuffle()	Rearrange list
+randrange()	Random number from range
+seed()	Fixed random sequence
