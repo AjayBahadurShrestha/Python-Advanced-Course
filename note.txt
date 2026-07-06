@@ -86,3 +86,8 @@ sample()	Multiple unique items
 shuffle()	Rearrange list
 randrange()	Random number from range
 seed()	Fixed random sequence
+
+
+import datetime
+from datetime import *
+import datetime as d
