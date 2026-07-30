@@ -1,0 +1,12 @@
+import tkinter as tk
+window = tk.Tk()
+window.geometry("400x300")
+label1=tk.Label(window, text="Python", bg='red')
+label2=tk.Label(window, text="Java", bg='blue')
+label3=tk.Label(window, text="C", bg='green')
+label4=tk.Label(window, text="C++", bg='yellow')
+label1.pack(side="top")
+label2.pack(side="left")
+label3.pack(side="bottom")
+label4.pack(side="right")
+window.mainloop()
